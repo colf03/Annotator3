@@ -1,0 +1,36 @@
+<h2>Bienvenue sur la page d'annotator 3</h2>
+
+<div class="container">
+  <label><b>Nom d'utilisateur</b></label>
+  <input type="text" id='email' placeholder="Entrez votre nom d'utilisateur" required>
+
+  <label><b>Mot de passe</b></label>
+  <input type="password" id="password" placeholder="Entrez votre mot de passe" name="psw" required>
+
+  <button type="submit" onclick="toggleSignIn()">Login</button>
+</div>
+<div class="container" style="background-color:#f1f1f1">
+  <button type="button" class="cancelbtn">Cancel</button>
+  <span class="signUp"><a href="/Signup.html">Sign Un</a></span>
+</div>
+
+<div class="container" style="background-color:#f1f1f1">
+  <button type="button" class="cancelbtn">Cancel</button>
+  <span class="psw">Forgot <a href="/password.html">password</a></span>
+</div>
+<script src="C:\Users\zaouali\Desktop\Annotator3\src\app\composante\connexion\Connexion.component.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBtzdAPBbqmn6XqGybZK_uObwue0k1J7CE",
+    authDomain: "dsiannotator3.firebaseapp.com",
+    databaseURL: "https://dsiannotator3.firebaseio.com",
+    projectId: "dsiannotator3",
+    storageBucket: "dsiannotator3.appspot.com",
+    messagingSenderId: "586163935619"
+  };
+  firebase.initializeApp(config);
+
+
+</script>
