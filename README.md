@@ -1,6 +1,6 @@
 # Annotator 3 v1.0
 
-Lien de la démo :
+Lien de la démo : https://dsiannotator3.firebaseapp.com/
 
 ## Introduction :
 L'application UQO-annotator est developpé dans le cadre du cours "Développement des Systèmes Informatiques". 
