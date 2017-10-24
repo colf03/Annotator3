@@ -13,7 +13,8 @@ La commande``` <ng build>``` permet de générer le projet. Les fichiers seront 
 
 ## Exécuter les tests : 
 Via Karma, on exécute les tests unitaires:
-par la commande ```<ng test>```
+par la commande ```<ng test>```.
+
 Via Protector, on exécute les tests end-to-end:
 par la commande ```<ng e2e>```
 
@@ -24,12 +25,12 @@ Annotator3/                   -- root du projet avec fichiers docs
 └── src/                      -- code du programme
     ├── app/                  -- pages de l'application et tests
     ├── composante/
-    │ ├── annotation/
-    │	├── connexion/
-    │	├── restauration/
-    │	├── signup/
+    │ ├── annotation/         -- pour les annotations
+    │	├── connexion/          -- pour la connexion au serveur
+    │	├── signup/             -- pour le login
+    │	├── restauration/       -- pour la restauration du mot de passe pour un utilisateur
     │	└── shared/
     └── environments/         -- description des environnements
 ```
 ## Aide :
-Pour plus d'informations, Veuillez consulter notre page wiki
+Pour plus d'informations, Veuillez consulter la documentation complète du projet sur wiki!
