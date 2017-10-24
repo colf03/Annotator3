@@ -18,6 +18,7 @@ Via Protector, on exécute les tests end-to-end:
 par la commande <ng e2e>
 
 ## Structure du projet : 
+
 Annotator3/                   -- root du projet avec fichiers docs
 ├── e2e/
 └── src/                      -- code du programme
