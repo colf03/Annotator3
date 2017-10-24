@@ -25,7 +25,8 @@ Annotator3/                   -- root du projet avec fichiers docs
 └── src/                      -- code du programme
     ├── app/                  -- pages de l'application et tests
     ├── composante/
-    │ ├── annotation/         -- pour les annotations
+    │ 
+    | ├── annotation/         -- pour les annotations
     │	├── connexion/          -- pour la connexion au serveur
     │	├── signup/             -- pour le login
     │	├── restauration/       -- pour la restauration du mot de passe pour un utilisateur
