@@ -31,7 +31,7 @@ Annotator3/                   -- root du projet avec fichiers docs
     │	├── home/               -- pour la page page d'accueil
     │	├── signup/             -- pour le l'inscription d'unutilisateur
     │	├── restauration/       -- pour la restauration du mot de passe pour un utilisateur
-    │	└── shared/             -- por tou les fichier en commun 
+    │	└── shared/             -- pour tout les fichier en commun 
     └── environments/         -- description des environnements
 ```
 ## Aide :
