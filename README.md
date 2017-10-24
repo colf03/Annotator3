@@ -7,18 +7,18 @@ L'application UQO-annotator est developpé dans le cadre du cours "Développemen
 Accessible à partir du Web, UQO-annotator permettra de modifier des fichiers .xmi avec annotations produites par l'outil cTakes ou annoter des fichiers texte.
 ## Installation d'Angular :
 L'utilisation de l'application nécessite l'installation de Angular CLI. 
-Voici la commande <npm install @angular/cli>
+Voici la commande ```<npm install @angular/cli>```
 ## Générer le projet :
-La commande <ng build> permet de générer le projet. Les fichiers seront ainsi enregistrés dans le répertoire /dist.
+La commande``` <ng build>``` permet de générer le projet. Les fichiers seront ainsi enregistrés dans le répertoire /dist.
 
 ## Exécuter les tests : 
 Via Karma, on exécute les tests unitaires:
-par la commande <ng test>
+par la commande ```<ng test>```
 Via Protector, on exécute les tests end-to-end:
-par la commande <ng e2e>
+par la commande ```<ng e2e>```
 
 ## Structure du projet : 
-
+```
 Annotator3/                   -- root du projet avec fichiers docs
 ├── e2e/
 └── src/                      -- code du programme
@@ -30,6 +30,6 @@ Annotator3/                   -- root du projet avec fichiers docs
     │	├── signup/
     │	└── shared/
     └── environments/         -- description des environnements
-
+```
 ## Aide :
 Pour plus d'informations, Veuillez consulter notre page wiki
