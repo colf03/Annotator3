@@ -27,8 +27,8 @@ Annotator3/                   -- root du projet avec fichiers docs
     ├── composante/
     │ 
     |  ├── annotation/         -- pour les annotations
-    │	├── connexion/          -- pour la connexion au serveur
-    │	├── signup/             -- pour le login
+    │	├── connexion/          -- pour la connexion d'utilisateur
+    │	├── signup/             -- pour le l'inscription d'unutilisateur
     │	├── restauration/       -- pour la restauration du mot de passe pour un utilisateur
     │	└── shared/
     └── environments/         -- description des environnements
