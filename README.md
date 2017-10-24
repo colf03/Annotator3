@@ -25,12 +25,13 @@ Annotator3/                   -- root du projet avec fichiers docs
 └── src/                      -- code du programme
     ├── app/                  -- pages de l'application et tests
     ├── composante/
-    │ 
-    |  ├── annotation/         -- pour les annotations
+    │ ├── andmin/             -- pour la page de l'administrateur
+    | ├── annotation/         -- pour les annotations
     │	├── connexion/          -- pour la connexion d'utilisateur
+    │	├── home/               -- pour la page page d'accueil
     │	├── signup/             -- pour le l'inscription d'unutilisateur
     │	├── restauration/       -- pour la restauration du mot de passe pour un utilisateur
-    │	└── shared/
+    │	└── shared/             -- por tou les fichier en commun 
     └── environments/         -- description des environnements
 ```
 ## Aide :
