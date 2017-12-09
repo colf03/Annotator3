@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "tryanno-1d11e"
+    "default": "tryanno-1d11e",
+    "dev": "dsiannotator3"
   }
 }

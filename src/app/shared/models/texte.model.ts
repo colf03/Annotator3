@@ -6,3 +6,7 @@
  *  Date :04-12-2017,  
  *  Crée par : 
  */
+ 
+ export class Texte {
+
+}

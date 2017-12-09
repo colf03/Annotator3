@@ -1,16 +1,16 @@
 /*
  *  Projet :  ANNOTATOR 3
  *  Version du fichier : 1.0.0
- *  Fichier : annotation.module.ts
+ *  Fichier : projet.module.ts
  *  Application de gestion des annotations - Description
  *  Date : 04-12-2017,  
- *  Crée par : Bastien SANSAS
+ *  Crée par : 
  */
 
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { AnnotationComposant } from './annotation.composant';
+import { ProjetComposant } from './projet.composant';
 //import { SharedModule } from '../shared';
 
 
@@ -21,7 +21,7 @@ import { AnnotationComposant } from './annotation.composant';
     /*SharedModule*/
   ],
   declarations: [
-    AnnotationComposant
+    ProjetComposant
   ]
 })
-export class AnnotationModule {}
+export class ProjetModule {}

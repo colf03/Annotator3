@@ -1,10 +1,10 @@
 /*
  *  Projet :  ANNOTATOR 3
  *  Version du fichier : 1.0.0
- *  Fichier : annotation.composant.ts
+ *  Fichier : texte.composant.ts
  *  Application de gestion des annotations - Description
  *  Date :04-12-2017,  
- *  Crée par : Bastien SANSAS
+ *  Crée par : 
  */
 
 import { Component, OnInit } from '@angular/core';
@@ -19,11 +19,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 } from '../shared';*/
 
 @Component({
-  selector: 'annotation-page',
-  templateUrl: './annotation.composant.html',
-  styleUrls: ['./annotation.composant.css']
+  selector: 'texte-page',
+  templateUrl: './texte.composant.html',
+  styleUrls: ['./texte.composant.css']
 })
-export class AnnotationComposant implements OnInit {
+export class TexteComposant implements OnInit {
 
 
   constructor(
@@ -36,17 +36,7 @@ export class AnnotationComposant implements OnInit {
     
   }
 
-  ajouterAnnotation(indexCaractereDebut: number, indexCaractereFin: number, categorie: string) {
-   
-  }
-
-  supprimerAnnotation(iD: number) {
-   
-  }
-
-  creerCategorie(nom: string) {
-    
-  }
+ 
  
 
 }

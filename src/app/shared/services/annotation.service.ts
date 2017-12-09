@@ -9,11 +9,11 @@
 
 import { Annotation } from '../models';
 
-@Injectable()
+/*@Injectable()*/
 export class AnnotationService {
   constructor (
   ) {}
-
+/*
   getAnnotations(idTexte): Observable<Annotation> {
     
   }
@@ -23,27 +23,27 @@ export class AnnotationService {
   }
 	
   ajouterAnnotation(newAnnotation): boolean {
-    
+    return true;
   }
   
   supprimerAnnotation(idAnnotation): boolean {
-    
+    return true;
   }
   
   modifierAnnotation(AnnotationAModifer ): boolean {
-    
+    return true;
   }
   
   ajouterCategorie(newCategorie) : boolean {
-    
+    return true;
   }
   
   supprimerCategorie(CategorieASupprimer) : boolean {
-    
+    return true;
   }
   
   supprimerCategorie(CategorieAModifer) : boolean {
-    
+    return true;
   }
-
+*/
 }

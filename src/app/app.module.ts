@@ -6,6 +6,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ConnexionComponent } from './composante/connexion/connexion.component';
+import { DashboardComposant } from './dashboard/dashboard.composant';
+import { ConnexionComposant } from './connexion/connexion.composant';
+import { TexteComposant } from './texte/texte.composant';
+import { ProjetComposant } from './projet/projet.composant';
+import { UtilisateurComposant } from './utilisateur/utilisateur.composant';
+import { AnnotationComposant } from './annotation/annotation.composant';
+/*import { SharedComposant } from './shared/shared.composant';*/
 
 import { AngularFireModule } from 'angularfire2';
 
@@ -24,14 +31,25 @@ export const firebaseConfig = {
   messagingSenderId: "586163935619"
 };
 const appRoutes: Routes = [
-  { path: 'Connexion', component: ConnexionComponent  },
-
+  /*{ path: 'Connexion', component: ConnexionComponent  },*/
+  { path: 'Dashboard', component: DashboardComposant  },
+  { path: 'Connexion', component: ConnexionComposant  },
+  { path: 'Texte', component: TexteComposant  },
+  { path: 'Projet', component: ProjetComposant  },
+  { path: 'Utilisateur', component: UtilisateurComposant  },
+  { path: 'Annotation', component: AnnotationComposant  }
 ];
 @NgModule({
   declarations: [
     AppComponent,
-    ConnexionComponent
-
+    ConnexionComponent,
+	DashboardComposant,
+	ConnexionComposant,
+	TexteComposant,
+	ProjetComposant,
+	UtilisateurComposant,
+	AnnotationComposant/*,
+	SharedComposant*/
   ],
   imports: [
     BrowserModule,
