@@ -35,7 +35,7 @@ export class ProjetComposant implements OnInit {
 	  ngOnInit() {
 		
 	  }
-	  
+	  /*
 	  ajouterProjet(nomProjet: String, listeAnnotateur: Array<Utilisateur>) { 
 		
 	  } 
@@ -55,6 +55,6 @@ export class ProjetComposant implements OnInit {
 	supprimerCollaborateurProjet(id: number , nom : String){ 
 
 	}
- 
+ */
 
 }

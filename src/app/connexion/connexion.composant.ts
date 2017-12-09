@@ -33,10 +33,9 @@ export class ConnexionComposant implements OnInit {
   ) { }
 
   ngOnInit() {
-    
+   
   }
 
- 
  
 
 }
