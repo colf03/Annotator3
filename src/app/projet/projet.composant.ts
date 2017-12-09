@@ -1,10 +1,10 @@
 /*
  *  Projet :  ANNOTATOR 3
- *  Version du fichier : 1.0.0
- *  Fichier : projet.composant.ts
- *  Application de gestion des annotations - Description
- *  Date :04-12-2017,  
- *  Crée par : 
+ *  Version du fichier : 1.0.0 
+ *  Fichier : projet.composant.ts 
+ *  Application de gestion des projets - Description 
+ *  Date :08-12-2017,   
+ *  Crée par : Florian Colly 
  */
 
 import { Component, OnInit } from '@angular/core';
@@ -26,17 +26,35 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ProjetComposant implements OnInit {
 
 
-  constructor(
-    private route: ActivatedRoute,
-    /*private annotationService: AnnotationService,*/
-    private router: Router,
-  ) { }
+	  constructor(
+		private route: ActivatedRoute,
+		/*private annotationService: AnnotationService,*/
+		private router: Router,
+	  ) { }
 
-  ngOnInit() {
-    
-  }
-
+	  ngOnInit() {
+		
+	  }
+	  
+	  ajouterProjet(nomProjet: String, listeAnnotateur: Array<Utilisateur>) { 
+		
+	  } 
+	 
+	  supprimerProjet(id: number) { 
+		
+	  } 
+	 
+	  modifierProjet(id: number, nom: string) { 
+		 
+	  } 
  
+	ajouterCollaborateurAProjet(id: number , listeAnnotateur: Array<Utilisateur>){ 
+	 
+	} 
+	 
+	supprimerCollaborateurProjet(id: number , nom : String){ 
+
+	}
  
 
 }
