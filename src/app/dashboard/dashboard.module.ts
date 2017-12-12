@@ -25,7 +25,7 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
-  declarations: [       
+  declarations: [
 		DashboardComposant,
 		TexteComposant,
 		ProjetComposant,
@@ -34,7 +34,7 @@ const appRoutes: Routes = [
 		SharedComposant*/
   ],
   providers: [
-   
+
   ]
 })
 export class DashboardModule { }

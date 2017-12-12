@@ -16,6 +16,11 @@ import { AngularFireModule } from 'angularfire2';
 //New imports to update based on AngularFire2 version 4
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { TexteComposant } from './texte/texte.composant';
+
+import { ProjetComposant } from './projet/projet.composant';
+import { UtilisateurComposant } from './utilisateur/utilisateur.composant';
+import { AnnotationComposant } from './annotation/annotation.composant';
 
 
 
@@ -31,13 +36,23 @@ const appRoutes: Routes = [
   /*{ path: 'Connexion', component: ConnexionComponent  },*/
   { path: 'Dashboard', component: DashboardComposant },
   { path: 'Connexion', component: ConnexionComposant  },
-  { path: '**', redirectTo: 'Connexion' }
+  /*{ path: '**', redirectTo: 'Connexion' },*/
+  
+  { path: 'Texte', component: TexteComposant  },
+  { path: 'Projet', component: ProjetComposant  },
+  { path: 'Utilisateur', component: UtilisateurComposant  },
+  { path: 'Annotation', component: AnnotationComposant  }
 ];
 @NgModule({
   declarations: [
     AppComponent,
     ConnexionComposant,
-	DashboardComposant	
+	DashboardComposant,
+
+  TexteComposant,
+  ProjetComposant,
+  UtilisateurComposant,
+  AnnotationComposant
   ],
   imports: [
     BrowserModule,
